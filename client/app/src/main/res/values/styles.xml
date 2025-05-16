@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Base.Theme.EarthTourClient" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/earth_blue</item>
+        <item name="colorPrimaryDark">@color/earth_dark_blue</item>
+        <item name="colorAccent">@color/earth_green</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/earth_dark_blue</item>
+    </style>
+
+    <!-- Dark theme -->
+    <style name="Base.Theme.EarthTourClient.Dark" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/earth_blue</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/earth_green</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+</resources>

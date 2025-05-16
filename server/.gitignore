@@ -1,0 +1,47 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Logs
+logs/
+*.log
+
+# Output files
+output/
+*.mp4
+*.webm
+*.avi
+
+# Temporary files
+.DS_Store
+*.tmp
+*.temp
+*~
+.#*
+*#
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Configuration files
+.env
+.env.*
+!.env.example
+
+# Blender backup files
+*.blend1
+*.blend2
